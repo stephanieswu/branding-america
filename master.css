@@ -1,5 +1,5 @@
 body{
-  background: lightgray;
+
   margin:0;
 
 }
@@ -8,38 +8,30 @@ body{
  position: sticky;
  background: black;
  color: white;
- height: 2em;
+ height: 1em;
  padding: 1em;
 }
-.scroll-left h1 {
-  font-family: 'PT Serif', serif;
-  font-size: 1.5em;
+.scroll-left p {
+  font-family: sans-serif;
+  font-size: 1em;
  position: absolute;
- width: 100%;
- height: 100%;
+ min-width: 250vw;
  margin: 0;
- line-height: 20px;
- text-align: center;
  /* Starting position */
  transform:translateX(100%);
  /* Apply animation to this element */
- animation: scroll-left 8s linear infinite;
+ animation: scroll-left 15s linear infinite;
 }
 /* Move it (define the animation) */
 @keyframes scroll-left {
  0%   {
- transform: translateX(100%);
+ transform: translateX(0%);
  }
  100% {
  transform: translateX(-100%);
  }
 }}
 
-h1{
-  font-family: 'PT Serif', serif;
-  font-style: italic;
-
-}
 
 p{
   font-family: 'PT Serif', serif;
@@ -48,13 +40,52 @@ p{
 
 }
 
-header, section{
-  padding:1em 5em;
+header{
+  font-family: 'Dela Gothic One', cursive;
   position:sticky;
   top:0;
+  margin: 1em;
+
 }
 
-.section-container{
+h1{
+  font-size: 1.5em;
+}
+
+.accordion{
+  font-family: 'Dela Gothic One', cursive;
+  background-image: linear-gradient(red, blue);
+  color: white;
+  padding: 1em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  transition: 0.4s;
+}
+
+.panel{
+  margin: auto;
+ width: 50%;
+
+  margin: 2em 10em;
+}
+
+#intro{
+  background:red;
+}
+
+
+#symbols{
+  background-color:blue;
+}
+
+#rituals{
+  background-color: #afa7b6;
+}
+
+/*.section-container{
   max-width: 60em;
 }
 
@@ -73,4 +104,4 @@ header, section{
 
 .myths {
   background-color: 	#6f708e;
-}
+}*/

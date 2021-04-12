@@ -1,14 +1,22 @@
-body{
+html{
 
+
+
+  }
+
+body{
   margin:0;
+  cursor: url(https://cursors3.totallyfreecursors.com/thumbnails/flag.gif), auto;
+
 
 }
 .scroll-left {
+
  overflow: hidden;
  position: sticky;
  background: black;
  color: white;
- height: 1em;
+ height: 3em;
  padding: 1em;
 }
 .scroll-left p {
@@ -34,13 +42,13 @@ body{
 
 
 p{
-  font-family: 'PT Serif', serif;
+
  font-size: 14px;
- max-width: 60em;
 
 }
 
 header{
+
   font-family: 'Dela Gothic One', cursive;
   position:sticky;
   top:0;
@@ -48,41 +56,54 @@ header{
 
 }
 
-h1{
-  font-size: 1.5em;
-}
 
-.accordion{
+.collapsible-header{
   font-family: 'Dela Gothic One', cursive;
-  background-image: linear-gradient(red, blue);
-  color: white;
+  cursor: url(https://cursors0.totallyfreecursors.com/thumbnails/skull-flag.gif), auto;
+  color: black;
   padding: 1em;
   width: 100%;
   border: none;
+  background-color: #455a64;
   text-align: left;
   outline: none;
   font-size: 1em;
   transition: 0.4s;
 }
 
-.panel{
+.collapsible-body{
+  font-family: 'Gochi Hand', cursive;
   margin: auto;
- width: 50%;
+  width: 50%;
+  padding: 2em 0;
+  width: 50em;
+  color: white;
 
-  margin: 2em 10em;
+}
+
+
+img{
+  margin: auto;
+  width: 50%;
+    width: 45em;
+    border-radius: 1em;
 }
 
 #intro{
-  background:red;
+  background:#6F8FAF;
 }
 
 
 #symbols{
-  background-color:blue;
+  background-color: red;
 }
 
 #rituals{
-  background-color: #afa7b6;
+  background-color: blue;
+}
+
+#myths{
+  background-color: #B6D0E2;
 }
 
 /*.section-container{

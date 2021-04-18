@@ -1,10 +1,9 @@
 
-body{
+body{background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg/1600px-Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg");
   margin:0;
+  padding: 0;
   cursor: url(https://cursors3.totallyfreecursors.com/thumbnails/flag.gif), auto;
-  background: #0B486B;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -40,7 +39,7 @@ background: linear-gradient(to bottom, #f44336, #2196f3); /* W3C, IE 10+/ Edge, 
   box-shadow: 0 0 1em darkred;
   text-align: left;
   outline: none;
-  font-size: 1.5em;
+  font-size: 1.2em;
   transition: 0.4s;
   text-align: center;
 
@@ -70,7 +69,7 @@ img{
  border-style: groove;
 background:white;
 margin: 2em;
-font-family: 'Spectral', serif;
+font-family: 'Arial', sans serif;
 padding:2em 0;
 
 }
@@ -80,10 +79,14 @@ padding:2em 0;
   width: 60em;
 }
 #intro-header{
+  color:white;
   border: .3em lightblue outset;
   height: 2.5em;
   text-align: center;
   box-shadow: 0 0 3em blue outset;
+  background: #2196f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f44336, #2196f3);
 
 }
 
@@ -101,7 +104,7 @@ padding:2em 0;
 }
 
 #maindiv{
-  background: darkred;
+  background-image: url("https://www.michaeloart.com/wp-content/uploads/2013/01/Washington_Crossing_the_Delaware_by_Emanuel_Leutze_MMA-NYC_1851.jpg");
   color: white;
   border: .3em outset lightblue;
   height: 2.5em;

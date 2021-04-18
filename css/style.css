@@ -14,18 +14,16 @@ background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, 
 a {
   font-family: cursive;
   color: hotpink !important;
-  
   cursor: url(https://cursors0.totallyfreecursors.com/thumbnails/skull-flag.gif), auto;
 }
 
 header{
 
   font-family: 'Cinzel', serif;
-  /*position:sticky;
-  top:0;*/
+  position:sticky;
+  top:2.5em;
   margin:auto;
   border: .5em white outset;
-  padding: 1em;
   background: #2196f3;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -38,28 +36,25 @@ background: linear-gradient(to bottom, #f44336, #2196f3); /* W3C, IE 10+/ Edge, 
   font-family: cursive;
   color: black;
   width: 100%;
-  height: 1em;
-  border: none;
+  height: 2.5em;
+  box-shadow: 0 0 1em darkred;
   text-align: left;
   outline: none;
   font-size: 1.5em;
   transition: 0.4s;
+  text-align: center;
+
 }
 
 .collapsible-body{
-  border: 1em blue groove;
+  border: .5em blue double;
  background:white;
- max-width: 60em;
  margin: auto;
  padding: 1em;
+ box-shadow: 0 0 2em blue inset;
 
 }
 
-.section{
-  max-width: 50em;
-  margin: auto;
-
-}
 
 
 img{
@@ -74,18 +69,21 @@ img{
  border: 1em blue;
  border-style: groove;
 background:white;
-margin: auto 0;
+margin: 2em;
 font-family: 'Spectral', serif;
-padding: 2em 6em;
+padding:2em 0;
+
 }
 
+#intro p{
+  margin: auto;
+  width: 60em;
+}
 #intro-header{
-  border: .3em red outset;
+  border: .3em lightblue outset;
   height: 2.5em;
-  background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);
-  background: linear-gradient(to bottom, #f44336, #2196f3);
-
-  color: white
+  text-align: center;
+  box-shadow: 0 0 3em blue outset;
 
 }
 
@@ -111,6 +109,8 @@ padding: 2em 6em;
   overflow: hidden;
   white-space: nowrap;
   padding: .1em;
+  position: sticky;
+  top: 0;
 }
 
 #div1 {

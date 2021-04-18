@@ -1,6 +1,4 @@
-html{
 
-}
 body{
   margin:0;
   cursor: url(https://cursors3.totallyfreecursors.com/thumbnails/flag.gif), auto;
@@ -8,52 +6,15 @@ body{
 background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-
-}
-.scroll-left {
-
- overflow: hidden;
- position: sticky;
- background: black;
- top:0;
- color: white;
- height: 3em;
- padding: 1em;
-}
-.scroll-left p {
-  font-family: 'Cinzel', serif;
-  font-size: 1.2em;
- position: absolute;
- min-width: 400vw;
- margin: 0;
- /* Starting position */
- transform:translateX(0%);
- /* Apply animation to this element */
- animation: scroll-left 30s linear infinite;
 }
 
-@keyframes scroll-left {
- 0%   {
- transform: translateX(0%);
- }
- 100% {
- transform: translateX(-100%);
- }
-}}
-
-
-p{
- font-size: 10px;
- padding: 0;
- margin: 0;
- max-width: 50em;
-}
 
 
 
 a {
-  font-family: sans-serif;
-  color:white;
+  font-family: cursive;
+  color: hotpink !important;
+  
   cursor: url(https://cursors0.totallyfreecursors.com/thumbnails/skull-flag.gif), auto;
 }
 

@@ -1,12 +1,12 @@
 html{
 
-
-
-  }
-
+}
 body{
   margin:0;
   cursor: url(https://cursors3.totallyfreecursors.com/thumbnails/flag.gif), auto;
+  background: #0B486B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 }
@@ -15,6 +15,7 @@ body{
  overflow: hidden;
  position: sticky;
  background: black;
+ top:0;
  color: white;
  height: 3em;
  padding: 1em;
@@ -23,14 +24,14 @@ body{
   font-family: 'Cinzel', serif;
   font-size: 1.2em;
  position: absolute;
- min-width: 250vw;
+ min-width: 400vw;
  margin: 0;
  /* Starting position */
- transform:translateX(100%);
+ transform:translateX(0%);
  /* Apply animation to this element */
- animation: scroll-left 15s linear infinite;
+ animation: scroll-left 30s linear infinite;
 }
-/* Move it (define the animation) */
+
 @keyframes scroll-left {
  0%   {
  transform: translateX(0%);
@@ -42,43 +43,61 @@ body{
 
 
 p{
- font-size: 14px;
+ font-size: 10px;
+ padding: 0;
+ margin: 0;
+ max-width: 50em;
 }
 
+
+
 a {
-  color: white;
+  font-family: sans-serif;
+  color:white;
   cursor: url(https://cursors0.totallyfreecursors.com/thumbnails/skull-flag.gif), auto;
 }
 
 header{
 
-  font-family: 'Dela Gothic One', cursive;
-  position:sticky;
-  top:0;
-  margin: 1em;
+  font-family: 'Cinzel', serif;
+  /*position:sticky;
+  top:0;*/
+  margin:auto;
+  border: .5em white outset;
+  padding: 1em;
+  background: #2196f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 
 .collapsible-header{
-  font-family: 'Dela Gothic One', cursive;
-  cursor: url(https://cursors0.totallyfreecursors.com/thumbnails/skull-flag.gif), auto;
+  font-family: cursive;
   color: black;
-  padding: 1em;
   width: 100%;
+  height: 1em;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 1em;
+  font-size: 1.5em;
   transition: 0.4s;
 }
 
 .collapsible-body{
-  font-family: 'Spectral', serif;
+  border: 1em blue;
+  border-style: groove;
+ background:white;
+ max-width: 60em;
+ margin: auto;
+ padding: 1em;
+
+}
+
+.section{
+  max-width: 50em;
   margin: auto;
-  width: 50%;
-  padding: 2em 0;
-  width: 50em;
 
 }
 
@@ -88,16 +107,38 @@ img{
   width: 50%;
     width: 45em;
     border-radius: 1em;
-    margin: 0 2em;
+    margin: 1em 2em;
 }
 
 #intro{
-  background:#6F8FAF;
+ border: 1em blue;
+ border-style: groove;
+background:white;
+margin: auto 0;
+font-family: 'Spectral', serif;
+padding: 2em 6em;
+}
+
+#intro-header{
+  border: .3em red outset;
+  height: 2.5em;
+  background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);
+  background: linear-gradient(to bottom, #f44336, #2196f3);
+
+  color: white
+
 }
 
 
 #symbols{
-  background-color: red;
+
+  border: 1em blue;
+  border-style: groove;
+ background:white;
+ max-width: 60em;
+ margin: auto;
+ padding: 1em;
+
 }
 
 #rituals{
@@ -107,6 +148,85 @@ img{
 #myths{
   background-color: #B6D0E2;
 }
+
+
+.glow {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px blue, 0 0 10px red;
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 30px red;
+  }
+}
+
+
+.bounce {
+  overflow: hidden;
+  position: sticky;
+  height: 3em;
+  padding: 1em;
+  background: darkred;
+  color: white;
+
+  }
+
+
+  .bounce p {
+    min-width: 350vw;
+    border: 2px red;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+      position: absolute;
+      height: 100%;
+      margin: 0;
+      text-align: center;
+      -moz-transform: translateX(50%);
+      -webkit-transform: translateX(50%);
+      transform: translateX(50%);
+      -moz-animation: bouncing-text 5s linear infinite alternate;
+      -webkit-animation: bouncing-text 5s linear infinite alternate;
+      animation: bouncing-text 18s linear infinite alternate;
+  }
+
+  @-moz-keyframes bouncing-text {
+      0% {
+          -moz-transform: translateX(50%);
+      }
+      100% {
+          -moz-transform: translateX(-50%);
+      }
+  }
+
+  @-webkit-keyframes bouncing-text {
+      0% {
+          -webkit-transform: translateX(50%);
+      }
+      100% {
+          -webkit-transform: translateX(-50%);
+      }
+  }
+
+  @keyframes bouncing-text {
+      0% {
+          -moz-transform: translateX(50%);
+          -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+      }
+      100% {
+          -moz-transform: translateX(-50%);
+          -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+      }
+  }
 
 /*.section-container{
   max-width: 60em;

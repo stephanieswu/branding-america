@@ -121,7 +121,7 @@ blockquote{
 .image{
   flex: 4;
   height: 100vh;
-  padding: 2em;
+  padding: 2em !important;
   overflow: scroll;
   overflow-x: hidden;
 
@@ -129,7 +129,7 @@ blockquote{
 
 .text{
   flex: 6;
-  padding: 2em;
+  padding: 2em !important;
   height: 100vh;
   overflow: scroll;
   overflow-x: hidden;

@@ -12,7 +12,8 @@ body{background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb
 
 a {
   font-family: cursive;
-  color: hotpink !important;
+  text-decoration: underline !important;
+  color: red !important;
   cursor: url(https://cursors0.totallyfreecursors.com/thumbnails/skull-flag.gif), auto;
 }
 
@@ -46,22 +47,25 @@ background: linear-gradient(to bottom, #f44336, #2196f3); /* W3C, IE 10+/ Edge, 
 }
 
 .collapsible-body{
+
+
   border: .5em blue double;
  background:white;
  margin: auto;
- padding: 1em;
+ padding: 1em 6em;
  box-shadow: 0 0 2em blue inset;
+
 
 }
 
 
 
+
 img{
   margin: auto;
-  width: 50%;
-    width: 45em;
-    border-radius: 1em;
-    margin: 1em 2em;
+  width: 25em;
+  border-radius: 1em;
+  box-shadow: 0 0 .5em blue;
 }
 
 #intro{
@@ -75,6 +79,7 @@ padding:2em 0;
 }
 
 #intro p{
+
   margin: auto;
   width: 60em;
 }
@@ -91,17 +96,39 @@ background: linear-gradient(to bottom, #f44336, #2196f3);
 }
 
 
-#symbols{
-
-}
 
 #rituals{
-  background-color: blue;
+
 }
 
 #myths{
   background-color: #B6D0E2;
 }
+
+.imagetext{
+ display: flex;
+
+}
+
+
+
+.image{
+  flex: 4;
+  height: 100vh;
+  padding: 2em;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+
+.text{
+  flex: 6;
+  padding: 2em;
+  height: 100vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
 
 #maindiv{
   background-image: url("https://www.michaeloart.com/wp-content/uploads/2013/01/Washington_Crossing_the_Delaware_by_Emanuel_Leutze_MMA-NYC_1851.jpg");
@@ -161,26 +188,3 @@ background: linear-gradient(to bottom, #f44336, #2196f3);
     text-shadow: 0 0 20px white, 0 0 30px red;
   }
 }
-
-
-
-/*.section-container{
-  max-width: 60em;
-}
-
-.intro{
-  background:#fcf2e9;
-}
-
-
-.symbols{
-  background-color:#d5d1d6;
-}
-
-.rituals{
-  background-color: #afa7b6;
-}
-
-.myths {
-  background-color: 	#6f708e;
-}*/

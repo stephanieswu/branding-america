@@ -68,6 +68,8 @@ img{
   box-shadow: 0 0 .5em blue;
 }
 
+
+
 #intro{
  border: 1em blue;
  border-style: groove;
@@ -85,13 +87,11 @@ padding:2em 0;
 }
 #intro-header{
   color:white;
-  border: .3em lightblue outset;
+  border: .3em darkred outset;
   height: 2.5em;
   text-align: center;
   box-shadow: 0 0 3em blue outset;
-  background: #2196f3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #f44336, #2196f3);
+  background-image: url("https://imgc.allpostersimages.com/img/print/u-g-PXYX0C0.jpg?w=338&h=450");
 
 }
 

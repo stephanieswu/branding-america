@@ -24,9 +24,10 @@ header{
   top:2.5em;
   margin:auto;
   border: .5em white outset;
-  background: #2196f3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #DD1414;
+background: -webkit-linear-gradient(bottom, #DD1414, #2819FF);
+background: -moz-linear-gradient(bottom, #DD1414, #2819FF);
+background: linear-gradient(to top, #DD1414, #2819FF);
 
 
 }
@@ -188,7 +189,7 @@ blockquote{
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px blue, 0 0 10px red;
+    text-shadow: 0 0 20px blue, 0 0 10px red;
   }
   to {
     text-shadow: 0 0 20px white, 0 0 30px red;

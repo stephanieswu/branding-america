@@ -1,5 +1,6 @@
 
-body{background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg/1600px-Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg");
+body{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg/1600px-Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg");
   margin:0;
   padding: 0;
   cursor: url(https://cursors3.totallyfreecursors.com/thumbnails/flag.gif), auto;
@@ -48,8 +49,6 @@ background: linear-gradient(to top, #DD1414, #2819FF);
 }
 
 .collapsible-body{
-
-
   border: .5em blue double;
  background:white;
  margin: auto;
@@ -193,5 +192,57 @@ blockquote{
   }
   to {
     text-shadow: 0 0 20px white, 0 0 30px red;
+  }
+}
+
+/* -----MOBILE----*/
+@media only screen and (max-width:420px){
+
+  .glow{
+    font-size: 1.2em;
+  }
+
+  #intro{
+  margin: 1em;
+  font-family: 'Arial', sans serif;
+  padding:1em 0;
+
+  }
+
+  #intro p{
+    font-size: 1em;
+    margin: auto;
+    width: 20em;
+    padding:  1em 0;
+  }
+
+  .imagetext{
+    display: block;
+      max-width: 28em;
+      font-size: .8em;
+
+  }
+
+  .image{
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 2em;
+
+
+  }
+
+  .text{
+
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  .collapsible-body{
+    border: .5em blue double;
+   background:white;
+   margin: auto;
+   padding: 1em 1.5em;
+
   }
 }

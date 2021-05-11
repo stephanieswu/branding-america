@@ -224,7 +224,7 @@ blockquote{
   }
 
   .image{
-    overflow: scroll;
+    overflow: visible;
     overflow-x: hidden;
     margin-bottom: 2em;
 
@@ -234,7 +234,7 @@ blockquote{
   .text{
 
     height: 100vh;
-    overflow: scroll;
+    overflow: visible;
     overflow-x: hidden;
   }
 
